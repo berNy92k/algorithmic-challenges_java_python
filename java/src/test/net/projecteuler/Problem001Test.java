@@ -41,4 +41,32 @@ class Problem001Test {
         // then
         assertEquals(233168, sum);
     }
+
+    @Test
+    void sumOfAllMultiplesSteam_shouldReturnCorrectValue_whenMultipleOf3And5ForNumbersBelow10() {
+        // given
+        final int maxValue = 10;
+        final int multipleA = 3;
+        final int multipleB = 5;
+
+        // when
+        final long sum = problem.sumOfAllMultiplesSteam(maxValue, multipleA, multipleB);
+
+        // then
+        assertEquals(23, sum);
+    }
+
+    @Test
+    void sumOfAllMultiplesSteam_shouldReturnCorrectValue_whenMultipleOf3And5ForNumbersBelow1000() {
+        // given
+        final int maxValue = 1000;
+        final int multipleA = 3;
+        final int multipleB = 5;
+
+        // when
+        final long sum = problem.sumOfAllMultiplesSteam(maxValue, multipleA, multipleB);
+
+        // then
+        assertEquals(233168, sum);
+    }
 }

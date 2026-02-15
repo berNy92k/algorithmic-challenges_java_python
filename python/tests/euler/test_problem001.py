@@ -1,4 +1,3 @@
-import pytest
 from euler.problem001 import sum_of_all_multiples
 
 class TestProblem001:

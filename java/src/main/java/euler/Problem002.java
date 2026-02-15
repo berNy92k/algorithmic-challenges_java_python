@@ -1,4 +1,4 @@
-package net.projecteuler;
+package euler;
 
 public class Problem002 {
 

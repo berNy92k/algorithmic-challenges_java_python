@@ -1,4 +1,4 @@
-package net.projecteuler;
+package euler;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package net.projecteuler;
+package euler;
 
 import java.util.stream.IntStream;
 

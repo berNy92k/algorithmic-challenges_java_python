@@ -1,6 +1,6 @@
 from euler.problem005 import smallest_value_without_reminder
 
-class TestProblem004:
+class TestProblem005:
 
     def test_smallest_value_min_1_max_10(self):
         # given

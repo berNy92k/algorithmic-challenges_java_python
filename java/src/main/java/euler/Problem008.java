@@ -29,7 +29,6 @@ public class Problem008 {
         );
 
         long result = 0;
-
         for (int i = 0; i < digits.size(); i++) {
             if (i == digits.size() - n) break;
 
@@ -39,7 +38,6 @@ public class Problem008 {
             }
             if (result <= resultInternal) result = resultInternal;
         }
-
 
         return result;
     }
